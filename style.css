@@ -1,0 +1,19 @@
+#stop-watch {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#action-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#timer {
+    text-align: center;
+}
