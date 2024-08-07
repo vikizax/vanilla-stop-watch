@@ -1,11 +1,25 @@
+body {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    padding: 0;
+    margin: 0;
+}
+
 #stop-watch {
-    padding: 10px;
+    margin-top: 50%;
+    padding: 1rem 1.8rem;
     width: fit-content;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2px solid white;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 2rem;
+    align-items: center;
+    background-color: black;
+    transform: translateY(-100%);
 }
 
 #action-container {
@@ -16,4 +30,16 @@
 
 #timer {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    user-select: none;
+}
+
+button {
+    padding: 12px;
+    border: none;
+}
+
+button:disabled i {
+    color: white;
 }
