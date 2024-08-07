@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
 </head>
@@ -14,11 +15,18 @@
         <div id="stop-watch">
             <div id="timer">00:00:000</div>
             <div id="action-container">
-                <button id="start-btn">START</button>
-                <button id="pause-btn" disabled>PAUSE</button>
-                <button id="reset-btn" disabled>RESET</button>
+                <button id="start-btn">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                </button>
+                <button id="pause-btn" disabled>
+                    <i class="fa fa-pause" aria-hidden="true"></i>
+                </button>
+                <button id="reset-btn" disabled>
+                    <i class="fa fa-stop" aria-hidden="true"></i>
+                </button>
             </div>
         </div>
     </main>
 </body>
+
 </html>
